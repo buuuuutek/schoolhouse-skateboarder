@@ -60,17 +60,41 @@
 		10D8654921FB26F00039A9C5 /* Skateboarder */ = {
 			isa = PBXGroup;
 			children = (
-				10D8654A21FB26F00039A9C5 /* AppDelegate.swift */,
-				10D8654C21FB26F00039A9C5 /* GameScene.sks */,
-				10D8654E21FB26F00039A9C5 /* Actions.sks */,
-				10D8655021FB26F00039A9C5 /* GameScene.swift */,
-				10D8655221FB26F00039A9C5 /* GameViewController.swift */,
-				10D8655421FB26F00039A9C5 /* Main.storyboard */,
-				10D8655721FB26F80039A9C5 /* Assets.xcassets */,
-				10D8655921FB26F80039A9C5 /* LaunchScreen.storyboard */,
-				10D8655C21FB26F80039A9C5 /* Info.plist */,
+				10D8656321FB391A0039A9C5 /* Source */,
+				10D8656221FB38DC0039A9C5 /* Design */,
+				10D8656421FB394A0039A9C5 /* Resources */,
 			);
 			path = Skateboarder;
+			sourceTree = "<group>";
+		};
+		10D8656221FB38DC0039A9C5 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				10D8654E21FB26F00039A9C5 /* Actions.sks */,
+				10D8654C21FB26F00039A9C5 /* GameScene.sks */,
+				10D8655421FB26F00039A9C5 /* Main.storyboard */,
+				10D8655921FB26F80039A9C5 /* LaunchScreen.storyboard */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		10D8656321FB391A0039A9C5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				10D8654A21FB26F00039A9C5 /* AppDelegate.swift */,
+				10D8655021FB26F00039A9C5 /* GameScene.swift */,
+				10D8655221FB26F00039A9C5 /* GameViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		10D8656421FB394A0039A9C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10D8655721FB26F80039A9C5 /* Assets.xcassets */,
+				10D8655C21FB26F80039A9C5 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
